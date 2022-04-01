@@ -1,0 +1,348 @@
+body {
+  background-color: #fdeedb;
+}
+
+body li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.list li {
+  padding: 1em;
+}
+
+.list li {
+  text-align: center;
+  list-style: none;
+}
+
+.skills-container h4 {
+  margin-top: 3em;
+}
+
+table {
+  border: 6px dotted lightcoral;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  width: 10%;
+  margin: 0 auto 5%;
+}
+
+.current {
+  text-decoration: underline red 0.1em;
+}
+
+a:hover {
+  background-color: white;
+}
+.skills-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.education h2 {
+  text-align: center;
+}
+
+.education {
+  width: 90%;
+}
+
+.skills {
+  margin-top: 5em;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h4 > a {
+  padding: 1em;
+}
+.list {
+  width: 80%;
+  margin: 0 auto;
+}
+.list ul {
+  padding: 0;
+}
+
+.video-content {
+  width: 60%;
+}
+
+.bleach {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-content {
+  margin-bottom: 5em;
+}
+
+.one-piece {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.attack-on-titan {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/*rules BELOW are all for nav*/
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.nav-container ul {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #a0f7eb;
+}
+.nav-container li {
+  width: 100%;
+
+  text-align: center;
+  box-sizing: content-box;
+  margin-bottom: 5%;
+  list-style: none;
+}
+
+.nav-container li a {
+  display: block;
+  padding: 0.8em 0;
+  color: #d2394e;
+}
+
+.projects {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.projects h4 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.nav-container li a:hover {
+  color: #a0f7eb;
+  background-color: #d2394e;
+  text-decoration: none;
+}
+li.just {
+  text-align: justify;
+  margin-bottom: 0.8em;
+}
+h1 {
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+  margin: 2em 0 3em;
+  letter-spacing: 0.09em;
+}
+.dosa-info {
+  background-color: darkgray;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.dosa-info img,
+.samosa-info img,
+.dates-info img {
+  margin: 20px;
+  border-radius: 20px;
+  height: 360px;
+  width: 539px;
+}
+
+.dosa-food-content {
+  position: absolute;
+  width: 400px;
+  left: 800px;
+  bottom: 80px;
+}
+.samosa-info {
+  background-color: aqua;
+}
+
+.samosa-info img {
+  position: relative;
+  left: 600px;
+}
+.samosa-info {
+  position: relative;
+}
+.samosa-food-content {
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+}
+
+.dates-info {
+  background-color: lightgreen;
+}
+
+.dates-info {
+  position: relative;
+}
+
+.dates-food-content {
+  position: relative;
+  bottom: 250px;
+  left: 680px;
+  width: 450px;
+}
+
+.contact {
+  margin-top: 5em;
+  clear: both;
+}
+
+.contact li {
+  display: block;
+  position: relative;
+  float: left;
+  width: 33%;
+}
+
+.contact li a {
+  display: block;
+  text-align: center;
+}
+
+.contact ul {
+  overflow: hidden;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-container {
+    width: 100%;
+  }
+  .nav-container li {
+    width: 15%;
+    padding: 0;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: transparent;
+    margin-bottom: 0;
+  }
+  .nav-container li a {
+    display: block;
+    padding: 0.8em 0;
+  }
+  .nav-container ul {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #a0f7eb;
+  }
+
+  .nav-container li:nth-child(3) {
+    float: right;
+  }
+  .nav-container li:nth-child(2) {
+    margin-right: 17%;
+    margin-left: 17%;
+  }
+  .nav-container li:nth-child(1) {
+    margin-left: 10%;
+  }
+  .nav-container li:nth-child(3) {
+    margin-right: 10%;
+  }
+  /**rules ABOVE are for nav bar**/
+
+  .container-content {
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+  }
+
+  .video-content {
+    float: left;
+    margin-bottom: 5em;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #d2394e;
+  }
+
+  .page-content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .education {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 4em;
+  }
+  .education li {
+    text-align: center;
+    margin: 1em;
+  }
+  .list li {
+    text-align: center;
+    list-style: none;
+  }
+
+  .left,
+  .right,
+  .center {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+
+  .projects {
+    clear: both;
+  }
+
+  li.just {
+    text-align: justify;
+    margin-bottom: 0.8em;
+  }
+  li {
+    line-height: 2em;
+  }
+
+  .contact h2 {
+    margin-top: 18em;
+  }
+
+  .list li {
+    padding: 0;
+  }
+
+  .skills-container h4 {
+    margin-top: 0;
+  }
+}
