@@ -328,7 +328,7 @@ h4 {
     font-size: 1.1em;
   }
   .nav-container li {
-    width: 15%;
+    width: 25%;
     padding: 0;
     display: block;
     position: relative;
@@ -346,19 +346,6 @@ h4 {
     background-color: #a0f7eb;
   }
 
-  .nav-container li:nth-child(3) {
-    float: right;
-  }
-  .nav-container li:nth-child(2) {
-    margin-right: 17%;
-    margin-left: 17%;
-  }
-  .nav-container li:nth-child(1) {
-    margin-left: 10%;
-  }
-  .nav-container li:nth-child(3) {
-    margin-right: 10%;
-  }
   /**rules ABOVE are for nav bar**/
 
   .container-content {
