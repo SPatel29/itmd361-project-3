@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Google Maps</title>
     <script
-      async defer
+      async
+      defer
       src="https://maps.googleapis.com/maps/api/js?key=js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
     ></script>
   </head>
@@ -17,7 +19,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: -34.397, lng: 150.644 },
-          zoom: 8
+          zoom: 8,
         });
       }
     </script>

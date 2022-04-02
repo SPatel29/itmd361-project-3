@@ -8,7 +8,6 @@ body {
   height: 100%;
 }
 
-
 body li a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -245,6 +244,79 @@ h3 {
 
 .contact h2 {
   text-align: center;
+}
+
+.nav-container li {
+  font-size: 25px;
+}
+
+.nav-container {
+  width: 90%;
+}
+
+.list li {
+  font-size: 1.2em;
+  border: 1px solid black;
+  margin-bottom: 0.8em;
+  background-color: white;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 450px) {
+  .nav-container {
+    width: 100%;
+  }
+
+  h2 {
+    color: #d2394e;
+    letter-spacing: 0.05em;
+  }
+
+  h4 {
+    color: rgb(7, 125, 243);
+    letter-spacing: 0.03em;
+  }
+
+  .left a:hover,
+  .right a:hover,
+  .center a:hover {
+    color: #a0f7eb;
+    background-color: #d2394e;
+    text-decoration: none;
+  }
+
+  li.contact-container {
+    background-color: #d2394e;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-container li {
+    font-size: initial;
+  }
+  .list li {
+    font-size: initial;
+    border: unset;
+    margin-bottom: 0;
+    background-color: transparent;
+    line-height: 2em;
+  }
+
+  h4 {
+    font-size: unset;
+    font-size: 1.1em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  .contact li a {
+    padding: 2em;
+  }
 }
 
 @media screen and (min-width: 800px) {
